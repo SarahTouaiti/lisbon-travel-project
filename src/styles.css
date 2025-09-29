@@ -53,4 +53,18 @@ header a {
   background: white;
 }
 
-@media (max-width: 900px);
+@media (max-width: 900px) {
+  header {
+    padding: 60px 10px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3,
+  header a {
+    font-size: 12px;
+  }
+}
