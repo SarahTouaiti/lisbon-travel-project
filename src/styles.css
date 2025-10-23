@@ -252,3 +252,79 @@ footer a {
     aspect-ratio: 16 / 9;
   }
 }
+@media (max-width: 600px) {
+  /* General layout */
+  section {
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  /* Grids: stack everything in one column */
+  .grid,
+  .grid-1,
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 36px;
+  }
+
+  header h2 {
+    font-size: 18px;
+  }
+
+  header h3 {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  main h3 {
+    font-size: 28px;
+  }
+
+  main h4 {
+    font-size: 18px;
+  }
+
+  /* Buttons */
+  .btn {
+    font-size: 12px;
+    padding: 12px;
+    letter-spacing: 2px;
+  }
+
+  /* Images and embeds */
+  .embed {
+    aspect-ratio: 16 / 9;
+  }
+
+  header {
+    padding: 40px 0;
+    background-position: center;
+  }
+
+  footer {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  footer .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .card-footer {
+    padding: 0 20px 20px;
+  }
+}
